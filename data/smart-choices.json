@@ -1,0 +1,103 @@
+{
+  "_meta": {
+    "title": "台灣早餐聰明選擇指南",
+    "description": "依減重、增肌、控糖等目標分類的早餐最佳搭配建議",
+    "version": "1.0.0",
+    "last_updated": "2026-04-16",
+    "source": "基於 TFND 數據及台灣衛福部國民健康署飲食建議"
+  },
+  "goals": {
+    "weight_loss": {
+      "target_calories_kcal": "300-400",
+      "target_protein_g_min": 15,
+      "best_combos": [
+        {
+          "combo": "鮪魚蛋餅 + 無糖豆漿",
+          "total_calories_kcal": 380,
+          "total_protein_g": 22.5,
+          "reason": "蛋白質最高組合，飽足感持續至午餐"
+        },
+        {
+          "combo": "吐司夾蛋（全麥）+ 無糖紅茶",
+          "total_calories_kcal": 260,
+          "total_protein_g": 11.0,
+          "reason": "熱量最低的完整早餐，蛋白質尚可"
+        },
+        {
+          "combo": "饅頭夾蛋 + 無糖豆漿",
+          "total_calories_kcal": 370,
+          "total_protein_g": 19.5,
+          "reason": "低油脂高蛋白，適合早晨運動後補充"
+        }
+      ],
+      "avoid": [
+        { "item": "燒餅油條", "reason": "450 kcal 高油高碳，油條含反式脂肪" },
+        { "item": "奶酥吐司", "reason": "高糖高油脂，蛋白質極低" },
+        { "item": "奶茶 + 蔥抓餅", "reason": "超過 550 kcal，幾乎等於一整餐熱量" },
+        { "item": "米漿", "reason": "高碳低蛋白，血糖波動大" }
+      ]
+    },
+    "muscle_building": {
+      "target_calories_kcal": "450-600",
+      "target_protein_g_min": 25,
+      "best_combos": [
+        {
+          "combo": "鮪魚蛋餅 + 荷包蛋 + 無糖豆漿",
+          "total_calories_kcal": 475,
+          "total_protein_g": 29.0,
+          "reason": "三種蛋白質來源，覆蓋必需胺基酸"
+        },
+        {
+          "combo": "饅頭夾蛋 + 荷包蛋 + 無糖豆漿",
+          "total_calories_kcal": 465,
+          "total_protein_g": 26.0,
+          "reason": "碳水充足供能，蛋白質支援肌肉合成"
+        }
+      ]
+    },
+    "blood_sugar_control": {
+      "target_glycemic_load": "low",
+      "principles": [
+        "優先選擇蛋白質和脂肪含量高的品項，減緩血糖上升速度",
+        "避免單純精緻碳水（白稀飯、米漿、含糖飲品）",
+        "全麥吐司 GI 值低於白吐司，優先選擇",
+        "無糖豆漿優於含糖豆漿（少 20g 碳水）"
+      ],
+      "best_choices": ["無糖豆漿", "荷包蛋", "吐司夾蛋（全麥）", "鮪魚蛋餅"],
+      "avoid": ["稀飯（白粥）", "米漿", "含糖豆漿", "奶茶"]
+    }
+  },
+  "calorie_saving_swaps": [
+    {
+      "original": "含糖豆漿 (165 kcal)",
+      "swap": "無糖豆漿 (70 kcal)",
+      "calories_saved": 95,
+      "notes": "每天替換，一個月少攝取約 2,850 kcal，相當於減少約 0.4 kg 脂肪"
+    },
+    {
+      "original": "奶茶 (190 kcal)",
+      "swap": "無糖紅茶 (5 kcal)",
+      "calories_saved": 185,
+      "notes": "植脂末（奶精）含反式脂肪，換無糖紅茶同時改善心血管健康"
+    },
+    {
+      "original": "奶酥吐司 (320 kcal)",
+      "swap": "吐司夾蛋 (255 kcal)",
+      "calories_saved": 65,
+      "notes": "同樣是土司，蛋白質從 6.5g 增加至 11g，飽足感提升"
+    },
+    {
+      "original": "燒餅油條 (450 kcal)",
+      "swap": "鮪魚蛋餅 (310 kcal)",
+      "calories_saved": 140,
+      "notes": "蛋白質從 11g 增加至 16g，同時避免油炸反式脂肪"
+    }
+  ],
+  "protein_ranking": [
+    { "rank": 1, "item": "鮪魚蛋餅", "protein_per_100kcal_g": 5.2 },
+    { "rank": 2, "item": "培根蛋餅", "protein_per_100kcal_g": 4.1 },
+    { "rank": 3, "item": "饅頭夾蛋", "protein_per_100kcal_g": 4.3 },
+    { "rank": 4, "item": "荷包蛋", "protein_per_100kcal_g": 6.8 },
+    { "rank": 5, "item": "無糖豆漿", "protein_per_100kcal_g": 9.3 }
+  ]
+}
